@@ -1,0 +1,147 @@
+.name{
+	text-transform: uppercase;
+	font-size:1.7em;
+	letter-spacing: .5px;
+	
+}
+.occupation{
+	text-transform: lowercase;
+	color:#6412B2;
+	font-family: 'Courgette', cursive;
+	font-size:1.1em;
+}
+.contact-info{
+	margin:0px 0px 0px 15px;
+
+}
+.contact-box{
+	font-family: 'Raleway', sans-serif;
+	float:right;
+	text-align:left;
+	font-size: 0.8em;		
+	margin: 0px;
+	width:100%;
+}
+.tag-cloud{
+	width:100%;
+	min-height:200px;
+}
+i{
+	margin-right:10px;
+}
+.job-title{
+	font-family: 'Raleway', sans-serif;
+	margin-bottom:5px;	
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+.institution{
+	color:#6412B2;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+.duties{
+	font-family: 'Raleway', sans-serif;
+	font-size:0.8em;
+	font-style: italic;
+}
+.skill{
+	font-family: 'Raleway', sans-serif;
+	margin-left:0px;
+	letter-spacing: 1px;	
+	font-size: 0.8em;
+}
+.graph{
+	color:#6412B2;
+	margin-left:20px;
+	font-size:0.9em;
+}
+.first{
+	margin-top:20px;
+}
+.content{
+	margin-bottom:20px;
+}
+.row-separator{
+	height:2px;
+}
+.grey-line{
+	border-bottom: solid 2px #939393;
+}
+.black-line{
+	border-bottom: solid 2px black;
+	margin: 30px 0px 30px 0px;
+}
+.section-heading{
+	letter-spacing: 2px;
+	font-weight:bold;	
+}
+.left-heading{
+	text-align: left;
+	margin: 0px 0px 20px 20px;
+}
+.skills-list{
+	font-family: 'Raleway', sans-serif;
+	margin-left:20px;
+	text-align:left;
+	font-size:0.8em;
+}
+.left-column-section-heading{
+	letter-spacing: 4px;
+	font-size: 1.2em;
+	text-align:left;
+	margin: 0px 0px 15px 15px;
+	vertical-align: middle;
+
+}
+.left-column-section-heading i{
+	margin-right:0px;
+}
+.objective-statement{
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-size:0.8em;
+	margin-left:20px;
+	text-align: left;
+}
+.date{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+.leftcolumn{
+	background-color: #14CC53; 
+	margin: 0px; 
+	padding: 5px; 
+	text-align:center;
+	min-height:26.5cm;
+	padding: 10px;
+}
+.rightcolumn{
+	background-color: #F8F8F8;
+	min-height:26.5cm; 
+	margin: 0px; 
+	padding: 5px; 
+	padding: 10px;
+}
+.leftcolumn-footer{
+	background-color: #12B84B; 
+	margin: 0px; 
+	padding: 5px; 
+	text-align:center;
+	min-height:1.2cm;
+	padding: 10px;
+}
+.rightcolumn-footer{
+	background-color: #F8F8F8;
+	min-height:1.2cm; 
+	margin: 0px; 
+	padding: 5px; 
+	padding: 10px;
+}
+.print{
+	width:21cm;
+}

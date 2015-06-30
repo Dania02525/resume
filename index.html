@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" type="text/css" href="jqcloud/jqcloud.css" />
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jqcloud/jqcloud-1.0.4.js"></script>
+  <script type="text/javascript">
+    /*!
+     * Create an array of word objects, each representing a word in the cloud
+     */
+    var word_array = [
+        {text: "Hiking", weight: 15},
+        {text: "Sailing", weight: 9},
+        {text: "Surfing", weight: 6},
+        {text: "Travel", weight: 7},
+        {text: "Cooking", weight: 5}
+        // ...as many words as you want
+    ];
+
+    $(function() {
+      // When DOM is ready, select the container element and call the jQCloud method, passing the array of words as the first argument.
+      $("#tag-cloud").jQCloud(word_array);
+    });
+  </script>
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+ 
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container print">
+    <div class="row">
+      <div class="four columns leftcolumn">
+      	<div class="row first">
+      		<span class="name">Jean <strong> Sammet </strong></span>
+        	<p class="occupation">Computer Scientist</p>
+        </div>
+        
+        <div class="row">
+          <div class="contact-box">
+            <p class="contact-info"> 
+              <i class="fa fa-phone"></i> +1 808 867 5309
+              <br>
+              <i class="fa fa-envelope-o"></i> jeansammet@somewhere.edu
+              <br>
+              <i class="fa fa-github-square"></i> github.com/jeansammet
+            </p>
+          </div>
+        </div>
+        <div class="row">
+	      	<div class="row-separator black-line">&nbsp;</div>
+	      </div>
+        <div class="row">
+          <div class="section-heading left-heading">
+            <i class="fa fa-dot-circle-o"></i>Objective
+          </div>
+        </div>
+        <div class="row">
+          <p class="objective-statement">
+              To use FORMAC professionally and further develop COBAL as part of a team intent on improving computational 
+              mathematics using natural language directions.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="section-heading left-heading">
+            <i class="fa fa-certificate"></i>Key Skills
+          </div>
+        </div>
+        <div class="row">
+          <p class="skills-list">
+            <i class="fa fa-check"></i>Language Architecture<br>
+            <i class="fa fa-check"></i>Applied Mathematics<br>
+            <i class="fa fa-check"></i>Spedac Programming<br>
+            <i class="fa fa-check"></i>COBAL Debugging<br>
+            <i class="fa fa-check"></i>Ada Scripting<br>
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="section-heading left-heading">
+            <i class="fa fa-puzzle-piece"></i>Interests
+          </div>
+        </div>
+        <div class="row">
+          <div id="tag-cloud" class="tag-cloud">
+          </div>
+        </div>
+      </div><!-- end left column -->
+      
+      <div class="eight columns rightcolumn">
+
+      	<div class="row first">
+      		<span class="section-heading"><i class="fa fa-list"></i>Employment History</span>    	
+        </div>
+        <div class="row-separator grey-line">&nbsp;</div>
+      	<div class="row">
+      		<div class="five columns">
+      			<span class="date">1961 - Present</span>
+      		</div>
+      		<div class="seven columns">
+      			<span class="institution">International Business Machines</span>
+      			<p class="job-title">FORMAC Developer</p>
+            <p class="duties">
+              Symbolic Mathematics, Ada, Program Direction
+            </p>
+      		</div>    	
+        </div>
+
+        <div class="row">
+          <div class="five columns">
+            <span class="date">1958 - 1961</span>
+          </div>
+          <div class="seven columns">
+            <span class="institution">Sylvania Electric Products</span>
+            <p class="job-title">Developer</p>
+            <p class="duties">
+              Developed software for MOBIDIC computer
+            </p>
+          </div>      
+        </div>
+
+        <div class="row">
+          <div class="five columns">
+            <span class="date">1955 - 1958</span>
+          </div>
+          <div class="seven columns">
+            <span class="institution">Sperry Gyroscope</span>
+            <p class="job-title">Programmer</p>
+            <p class="duties">
+              Spedac development, Applied Mathematics Programming  
+            </p>
+          </div>      
+        </div>
+
+        <div class="row">
+          <div class="five columns">
+            <span class="date">1951 - 1952</span>
+          </div>
+          <div class="seven columns">
+            <span class="institution">Metropolitan Life Insurance</span>
+            <p class="job-title">Punch Card Machine Operator</p>
+            <p class="duties">
+              Trained on Punch Card Machines
+            </p>
+          </div>      
+        </div>
+
+        <div class="row">
+          <span class="section-heading"><i class="fa fa-flask"></i>Personal Projects</span>     
+        </div>
+        <div class="row-separator grey-line">&nbsp;</div>
+        <div class="row content">
+          <div class="five columns">
+            <span class="date">1965</span>
+          </div>
+          <div class="seven columns">
+            <span class="institution">FORMAC Programming Language</span>
+            <p class="job-title">Language for Computational Mathematics</p>
+            <p class="duties">Contributor</p>
+          </div>      
+        </div>
+
+        <div class="row">
+          <span class="section-heading"><i class="fa fa-graduation-cap"></i>Education</span>     
+        </div>
+        <div class="row-separator grey-line">&nbsp;</div>
+        <div class="row content">
+          <div class="five columns">
+            <span class="date">1968</span>
+          </div>
+          <div class="seven columns">
+            <span class="institution">Stanford University</span>
+            <p class="job-title">PhD, Computer Science</p>
+            <br>
+          </div>      
+        </div>       
+
+        <div class="row">
+          <span class="section-heading"><i class="fa fa-terminal"></i>Technical Experience</span>     
+        </div>
+        <div class="row-separator grey-line">&nbsp;</div>
+        <div class="row">
+          <div class="five columns">
+            <span class="skill">FORMAC</span>
+          </div>
+          <div class="seven columns">
+            <span class="graph">
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              7 years
+            </span>
+          </div>      
+        </div>
+        <div class="row">
+          <div class="five columns">
+            <span class="skill">Applied Mathematics</span>
+          </div>
+          <div class="seven columns">
+            <span class="graph">
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              7 years
+            </span>
+          </div>      
+        </div>
+        <div class="row">
+          <div class="five columns">
+            <span class="skill">COBOL</span>
+          </div>
+          <div class="seven columns">
+            <span class="graph">
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle-o"></i>
+              <i class="fa fa-circle-o"></i>
+              5 years
+            </span>
+          </div>      
+        </div>               
+      </div><!-- close right column -->
+    </div>
+    <div class="row"><!-- footer row -->
+      <div class="four columns leftcolumn-footer">
+      </div>
+      <div class="eight columns rightcolumn-footer">
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
